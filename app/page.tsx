@@ -9,8 +9,10 @@ import Mainfooter from "@/components/footer/mainfooter";
 import MovilNavbar from "@/components/navbar/movilnavbar";
 import MovilFooter from "@/components/footer/movilfooter";
 import Footerfinal from "@/components/footer/footerfinal";
+import Bannerprincipal from "@/components/bannerPrincipal/bannerprincipal";
 
 
+import Router from 'next/router';
 export default function HomePage() {
   return (
 
@@ -19,11 +21,20 @@ export default function HomePage() {
 
       <MainNavbar />
       <MovilNavbar />
-      <main className="mx-5 lg:mx-10">
+      {/* <Bannerprincipal />  */}
+      <main id="home" className="mx-16 bg-[#f4ece7] text-[#2D2926]" >
+
+      
+
         {/* vista computador */}
-        <section className="hidden lg:block ">
+        <section  className="hidden lg:block ">
           
-          <div className="flex gap-4 py-7">
+
+        
+
+          <div className="flex gap-4 py-2">
+
+
 
             <div className="w-1/3">
             <Image src="/artista_1.jpg" alt="" width={590} height={500}></Image>
@@ -38,7 +49,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className=" flex gap-4 py-7">
+          <div className=" flex gap-4">
             <div className="w-1/3 ">
             <Image src="/artista_6.jpg" alt="" width={590} height={700} ></Image>
             </div>
@@ -50,7 +61,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className=" flex gap-4 py-7">
+          <div className=" flex gap-4 py-2">
             <div className="w-1/3">
             <Image src="/paisaje_2.jpg" alt="" width={590} height={700} ></Image>
             </div>
@@ -62,7 +73,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className=" flex gap-4  py-7">
+          <div className=" flex gap-4">
             <div className="w-1/3">
             <Image src="/artista_7.jpg" alt="" width={590} height={700} ></Image>
             </div>
