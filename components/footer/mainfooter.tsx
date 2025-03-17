@@ -5,7 +5,7 @@ import { CiFacebook } from "react-icons/ci";
 const MainFooter = () =>{
     return(
         <>
-                <section id="Footer" className=" w-screen pt-5 hidden lg:block"> 
+                <section id="Footer" className=" w-screen pt-5 hidden lg:block bg-[#f4ece7]"> 
                 <footer className="bg-[#f4ece7]  py-12 text-[#2D2926]">
         <div className="max-w-7xl mx-auto ">
           <div className="flex flex-row justify-between gap-8">

@@ -8,7 +8,7 @@ const Bannerprincipal = () =>{
 
 
         
-         <div className="w-screen">
+         <div className="w-screen bg-[#f4ece7]">
          <div className="relative h-screen ">
        <div 
          className="absolute inset-0 bg-cover bg-center "

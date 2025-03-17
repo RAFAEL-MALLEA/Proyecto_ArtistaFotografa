@@ -3,10 +3,10 @@ import React from "react";
 const Navbar = () =>{
     return(
         <>
-            <header className="bg-[#f4ece7] w-screen py-7  shadow-2xl hidden lg:block text-[#2D2926]">
+            <header className="bg-[#f4ece7] py-7 hidden lg:block text-[#2D2926]">
             <nav>
                 <section className=""> 
-                    <div className="flex justify-between px-10">
+                    <div className="flex justify-between px-16 md:flex-col xl:flex-row">
                         <div className="flex font-bold text-2xl text-center justify-center open-sauce-one">Victoria Galarza</div>
                         <div className="flex gap-4 justify-center">
                         <button className="border-b"><a href="/" className="hover:text-foreground/80 text-foreground/160">Home</a></button>

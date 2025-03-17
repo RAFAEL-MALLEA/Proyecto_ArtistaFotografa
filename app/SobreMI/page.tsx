@@ -6,7 +6,7 @@ const SobreMi = () => {
     return (
         <>
             <Navbar />
-            <main>
+            <main className="">
                 <section>
 
                 </section>
