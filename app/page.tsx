@@ -29,7 +29,7 @@ export default function HomePage() {
         {/* vista computador */}
         <section  className="hidden lg:block ">
           
-
+          <div>
             <div className="flex py-2">
 
 
@@ -75,34 +75,40 @@ export default function HomePage() {
             <div className="w-1/4"><Image src="/home/28.jpg" alt="" width={590} height={500}></Image></div>
             
             </div>
+          </div>
+
+          <div className="flex py-2">
+            
+              <div className="">
+                <div className=""><Image src="/home/13.jpg" alt="" width={590} height={500}></Image></div>
+                <div className=""><Image src="/home/22.jpg" alt="" width={590} height={500}></Image></div>
+              </div>
+
+              <div className="flex">
+                <div className=""><Image src="/home/21.jpg" alt="" width={590} height={500}></Image></div>
+                <div className=""><Image src="/home/24.jpg" alt="" width={590} height={500}></Image></div>
+                <div className=""><Image src="/home/30.jpg" alt="" width={590} height={500}></Image></div>
+              </div>
+
+          </div>
 
 
 
             <div className="flex">
             
-            <div className="w-1/4 "><Image src="/home/13.jpg" alt="" width={590} height={500}></Image></div>
-            <div className="w-1/4"><Image src="/home/8.jpg" alt="" width={590} height={500}></Image></div>
+
+            
             <div className="w-1/4 "><Image src="/home/6.jpg" alt="" width={590} height={500}></Image></div>
-            <div className="w-1/4 "><Image src="/home/11.jpg" alt="" width={590} height={500}></Image></div>
-            
-            </div>
-
-            <div className="flex">
-            
-            <div className="w-1/4 "><Image src="/home/22.jpg" alt="" width={590} height={500}></Image></div>
-            <div className="w-1/4 "><Image src="/home/27.jpg" alt="" width={590} height={500}></Image></div>
-            <div className="w-1/4 "><Image src="/home/30.jpg" alt="" width={590} height={500}></Image></div>
-            <div className="w-1/4 "><Image src="/home/32.jpg" alt="" width={590} height={500}></Image></div>
-            
-            </div>
-
-            <div className="flex ">
-            
-            <div className="w-1/4 "><Image src="/home/21.jpg" alt="" width={590} height={500}></Image></div>
-            
             <div className="w-1/4 "><Image src="/home/19.jpeg" alt="" width={590} height={500}></Image></div>
-            <div className="w-1/4 "><Image src="/home/9.jpg" alt="" width={590} height={500}></Image></div>
-            <div className="w-1/4 "><Image src="/home/24.jpg" alt="" width={590} height={500}></Image></div>
+            <div className="w-1/4 "><Image src="/home/32.jpg" alt="" width={590} height={500}></Image></div>
+            <div className="w-1/4 "><Image src="/home/11.jpg" alt="" width={590} height={500}></Image></div>
+            </div>
+
+
+            <div className="flex py-2 justify-center">
+            
+            <div className=""><Image src="/home/27.jpg" alt="" width={590} height={500}></Image></div>
+            <div className=""><Image src="/home/8.jpg" alt="" width={590} height={500}></Image></div>
             
             </div>
 
