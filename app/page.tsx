@@ -1,9 +1,7 @@
 'use client';
 
-import Navbar from "@/components/navbar/mainnavbar";
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import MainNavbar from "@/components/navbar/mainnavbar";
 import Mainfooter from "@/components/footer/mainfooter";
 import Footerfinal from "@/components/footer/footerfinal";
