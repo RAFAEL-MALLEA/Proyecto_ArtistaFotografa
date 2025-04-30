@@ -3,25 +3,24 @@ import React from "react";
 const Navbar = () =>{
     return(
         <>
-            <header className="bg-[#f4ece7] py-7 hidden lg:block text-[#2D2926]">
+            <header className=" py-7 hidden lg:block ">
             <nav>
                 <section className=""> 
                     <div className="flex justify-between px-16 md:flex-col xl:flex-row">
-                        <div className="flex font-bold text-2xl text-center justify-center open-sauce-one">Victoria Galarza</div>
+                        <h1 className="flex font-bold text-2xl text-center justify-center open-sauce-one">Victoria Galarza <p className="justify-center items-center">-</p>
+                        <p className="flex font-bold text-2xl text-center justify-center italic">Fotografa</p></h1>
                         <div className="flex gap-4 justify-center">
-                        <button className="border-b"><a href="/" className="hover:text-foreground/80 text-foreground/160">Home</a></button>
-                        <button className="border-b"><a href="/SobreMI" className="hover:text-foreground/80 text-foreground/160">Sobre mi</a></button>
-                        <button className="border-b"><a href="/Retratos" className="hover:text-foreground/80 text-foreground/160">Retratos</a></button>
-                        <button className="border-b"><a href="/Arte_y_ProcesoCreativo" className="hover:text-foreground/80 text-foreground/160">Arte y proceso creativo</a></button>
-                        <button className="border-b"><a href="/Espacios_Atmosfera" className="hover:text-foreground/80 text-foreground/160">Espacios y atmósferas</a></button>
-                        <button className="border-b"><a href="/Eventos_Participacion" className="hover:text-foreground/80 text-foreground/160">Eventos y participación</a></button>
-                        <button className="border-b"><a href="/Servicios" className="hover:text-foreground/80 text-foreground/160">Servicios</a></button>
-                        <button className="border-b"><a href="/Contacto" className="hover:text-foreground/80 text-foreground/160">contacto</a></button>
+                        <button className="border-b"><a href="/" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Home</a></button>
+                        <button className="border-b"><a href="/SobreMI" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Sobre mi</a></button>
+                        {/* <button className="border-b"><a href="/Retratos" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Retratos</a></button>
+                        <button className="border-b"><a href="/Arte_y_ProcesoCreativo" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Arte y proceso creativo</a></button>
+                        <button className="border-b"><a href="/espacios_atmosferas" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Espacios y atmósferas</a></button>
+                        <button className="border-b"><a href="/Eventos_Participacion" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Eventos y participación</a></button>
+                        <button className="border-b"><a href="/Servicios" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Servicios</a></button>
+                        <button className="border-b"><a href="/Contacto" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">contacto</a></button> */}
                         </div>
                     </div>
                 </section>
-
-                
             </nav>
             </header>
         </>

@@ -8,15 +8,15 @@ const Bannerprincipal = () =>{
 
 
         
-         <div className="w-screen bg-[#f4ece7]">
-         <div className="relative h-screen ">
+
+
        <div 
          className="absolute inset-0 bg-cover bg-center "
          style={{
            backgroundImage: 'url("https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80")',
          }}
        >
-         <div className="absolute inset-0 bg-black/40" />
+         <div className="absolute inset-0" />
 
             {/* <header className="w-screen py-7  shadow-2xl hidden lg:block">
             <nav>
@@ -44,16 +44,14 @@ const Bannerprincipal = () =>{
        </div>
        <div className="relative h-full flex items-center justify-center text-center ">
          <div className="max-w-3xl px-4 sm:px-6 lg:px-8">
-           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+           <h1 className="text-4xl md:text-6xl font-boldmb-6">
              Capturando momentos unicos
            </h1>
-           <p className="text-xl text-white/90 mb-8">
+           <p className="text-xl mb-8">
              Fotografa Profesional dando servicios de talleres, fotos, y momentos especiales, te dejo una recopilacion de mis trabajos
            </p>
          </div>
        </div>
-     </div>
-     </div>
          </>
      )
  }
