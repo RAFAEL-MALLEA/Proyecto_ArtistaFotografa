@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () =>{
     return(
@@ -10,8 +11,8 @@ const Navbar = () =>{
                         <h1 className="flex font-bold text-2xl text-center justify-center open-sauce-one">Victoria Galarza <p className="justify-center items-center">-</p>
                         <p className="flex font-bold text-2xl text-center justify-center italic">Fotografa</p></h1>
                         <div className="flex gap-4 justify-center">
-                        <button className="border-b"><a href="/" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Home</a></button>
-                        <button className="border-b"><a href="/SobreMI" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Sobre mi</a></button>
+                        <button className="border-b"><Link href="/" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Home</Link></button>
+                        <button className="border-b"><Link href="/SobreMI" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Sobre mi</Link></button>
                         {/* <button className="border-b"><a href="/Retratos" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Retratos</a></button>
                         <button className="border-b"><a href="/Arte_y_ProcesoCreativo" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Arte y proceso creativo</a></button>
                         <button className="border-b"><a href="/espacios_atmosferas" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">Espacios y atmósferas</a></button>
