@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaEnvelope } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const MainFooter = () =>{
     return(

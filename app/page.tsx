@@ -8,7 +8,6 @@ import Footerfinal from "@/components/footer/footerfinal";
 // import Bannerprincipal from "@/components/bannerPrincipal/bannerprincipal";
 
 
-import Router from 'next/router';
 export default function HomePage() {
   return (
 
