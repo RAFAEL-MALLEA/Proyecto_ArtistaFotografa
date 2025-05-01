@@ -4,37 +4,31 @@ import { FaInstagram } from "react-icons/fa";
 const MainFooter = () =>{
     return(
         <>
-                <section id="Footer" className="hidden lg:block"> 
-                <footer className="  py-12 ">
-        <div className="max-w-7xl mx-auto ">
-          <div className="flex flex-row justify-between gap-8">
+                
+      <footer className="  py-12 ">
+          <section className="grid grid-flow-col-dense gap-4 justify-center items-center text-center">
 
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Victoria Galarza</h3>
-              <p className=""> Capturando momentos preciosos de la vida con vision artistica y excelente tecnica.</p>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Contectemos</h3>
-              <div className="flex space-x-4">
+          <div className="grid grid-flow-col-dense gap-4">
+              <h3>Contectemos</h3>
                 <a href="https://www.instagram.com/fragilsosiego/" className="">
-                  <FaInstagram className="h-6 w-6" />
+                  <FaInstagram className="w-6 h-6" />
                 </a>
-                {/* <a href="#" className="text-neutral-400 hover:text-white">
-                  <FaEnvelope className="h-6 w-6" />
-                </a> */}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Contacto</h3>
-              <p className="">+ (56) 9 5514 8483</p> 
-            </div>
           </div>
-        </div>
+          <div className="grid grid-flow-col-dense gap-4">
+              <p>
+                <a href="mailto:vickgalarza@gmail.com" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">vickgalarza@gmail.com</a>
+              </p>
+          </div>
+            <div className="grid grid-flow-col-dense gap-4">
+              <h3>Contacto</h3>
+              <p>+ (56) 9 5514 8483</p> 
+            </div>
+          </section>
         
-      </footer>
+          <section className="grid grid-flow-col-dense gap-4 justify-center items-center text-center mt-5"> 
+                        <p className="grid grid-flow-col-dense gap-4">© 2025 Victoria Galarza. Todos los derechos reservados</p>
                 </section>
+      </footer>
         </>
     )
 }
