@@ -18,6 +18,7 @@ const Navbar = () =>{
                         <button className=""><Link href="/SobreMI" className="hover:text-foreground/80 open-sauce-one">Sobre mi</Link></button>
                         <button className=""><Link href="/espacios_atmosferas" className="hover:text-foreground/80 open-sauce-one">Espacios y Atmosferas</Link></button>
                         <button className=""><Link href="/retratos" className="hover:text-foreground/80 open-sauce-one">Retratos</Link></button>
+                        <button className=""><Link href="/servicios" className="hover:text-foreground/80 open-sauce-one">Fotografia y Formacion</Link></button>
                     </div>
 
                 </div>

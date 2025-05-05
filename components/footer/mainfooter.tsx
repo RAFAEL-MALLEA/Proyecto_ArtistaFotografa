@@ -9,19 +9,17 @@ const MainFooter = () =>{
           <section className="grid grid-flow-col-dense gap-4 justify-center items-center text-center">
 
           <div className="grid grid-flow-col-dense gap-4">
-              <h3>Contectemos</h3>
-                <a href="https://www.instagram.com/fragilsosiego/" className="">
+                <a href="https://www.instagram.com/fragilsosiego/ " target="_blank" rel="noopener noreferrer" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">
                   <FaInstagram className="w-6 h-6" />
                 </a>
           </div>
           <div className="grid grid-flow-col-dense gap-4">
               <p>
-                <a href="mailto:vickgalarza@gmail.com" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">vickgalarza@gmail.com</a>
+                <a href="mailto:vickgalarza@gmail.com" className="hover:text-foreground/80 text-foreground/160 open-sauce-one " target="_blank" rel="noopener noreferrer">vickgalarza@gmail.com</a>
               </p>
           </div>
             <div className="grid grid-flow-col-dense gap-4">
-              <h3>Contacto</h3>
-              <p>+ (56) 9 5514 8483</p> 
+              <a href="https://api.whatsapp.com/send?phone=56955148483" className="hover:text-foreground/80 text-foreground/160 open-sauce-one">+ (56) 9 5514 8483</a>
             </div>
           </section>
         
